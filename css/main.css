@@ -1,0 +1,24 @@
+body{
+	background: #999;
+	font-family: calibri;
+}
+
+h1, h2{
+	color: #222;
+}
+
+a{
+	color: blue;
+}
+
+p{
+	background: #666;
+	color: white;
+	padding: 10px;
+}
+
+.merced{
+	background: green;
+	color: black;
+}
+
