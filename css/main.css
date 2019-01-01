@@ -1,14 +1,48 @@
 body{
-	background: #999;
 	font-family: calibri;
+	margin: 0;
 }
 
-h1, h2{
-	color: #222;
+header{
+	background: #999;
+	color: white;
 }
 
-a{
-	color: blue;
+header h1{
+	margin: 0;
+	color: black;
+	display: inline;
+}
+
+.row{
+
+}
+
+.col{
+	float: left;
+	background: green;
+	padding: 10px .5%;
+	margin: .5%;
+	width: 31%;
+	border-radius: 5px;
+	color: white;
+}
+
+h2{
+	color: black;
+	clear: both;
+}
+
+nav ul{
+	display: inline;
+}
+
+nav ul li{
+	display: inline-block;
+	color: white;
+	background: black;
+	padding: 5px 15px;
+	list-style-type: none;
 }
 
 p{
